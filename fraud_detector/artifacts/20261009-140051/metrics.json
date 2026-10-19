@@ -1,0 +1,13 @@
+{
+  "roc_auc": 0.9997762373822944,
+  "average_precision": 0.9834144456563765,
+  "precision_at_threshold": 0.9838709677419355,
+  "recall_at_threshold": 0.8801331853496115,
+  "f1_at_threshold": 0.9291154071470415,
+  "threshold": 0.98,
+  "train_rows": 629144,
+  "validation_rows": 157287,
+  "positive_rate_train": 0.005726828834098394,
+  "positive_rate_validation": 0.005728381875170866,
+  "best_iteration": 446
+}

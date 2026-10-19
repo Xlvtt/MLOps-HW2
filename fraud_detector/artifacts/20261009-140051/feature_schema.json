@@ -1,0 +1,43 @@
+{
+  "raw_required_columns": {
+    "transaction_time": "datetime string",
+    "gender": "string",
+    "merch": "string",
+    "cat_id": "string",
+    "one_city": "string",
+    "us_state": "string",
+    "jobs": "string",
+    "amount": "number",
+    "population_city": "number",
+    "lat": "number",
+    "lon": "number",
+    "merchant_lat": "number",
+    "merchant_lon": "number"
+  },
+  "target_column": "target",
+  "model_feature_columns": [
+    "gender",
+    "merch",
+    "cat_id",
+    "one_city",
+    "us_state",
+    "jobs",
+    "hour",
+    "month",
+    "day_of_week",
+    "amount_log",
+    "population_city_log",
+    "distance_km_log"
+  ],
+  "categorical_feature_columns": [
+    "gender",
+    "merch",
+    "cat_id",
+    "one_city",
+    "us_state",
+    "jobs",
+    "hour",
+    "month",
+    "day_of_week"
+  ]
+}

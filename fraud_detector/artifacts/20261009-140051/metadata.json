@@ -1,0 +1,12 @@
+{
+  "model_version": "20261009-140051",
+  "created_at_utc": "2026-10-09T14:09:16.723059+00:00",
+  "model_type": "CatBoostClassifier",
+  "threshold": 0.98,
+  "random_seed": 42,
+  "target": "target",
+  "training_data": "/app/data/train.csv",
+  "model_file": "model.cbm",
+  "preprocessor_file": "preprocessor.joblib",
+  "feature_schema_file": "feature_schema.json"
+}

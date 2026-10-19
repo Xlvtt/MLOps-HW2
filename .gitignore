@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/transactions.csv
+results/category_of_largest_transaction.csv
+.DS_Store
+
